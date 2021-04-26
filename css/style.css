@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fl {
+    float: left;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+
+}
+
+[class*="item-"] {
+    width: calc(800px/3);
+    height: 400px;
+}
+
+.top-row {
+    padding-bottom: 12.5px;
+}
+
+.bottom-row {
+    padding-top: 12.5px;
+}
+
+[class^="img-"] {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+[class^="price"] {
+    margin-top: 10px;
+}
+
+.price-sale {
+    color: #d73b48;
+}
+
+.green {
+    background-color: #75ac51;
+    padding: 17.5px 10px;
+}
+
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.heart::after {
+    content: "\2661";
+    color: #000;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.sale, [class^="eco"] {
+    position: absolute;
+    bottom: 10px;
+    width: 30px;
+    height: 15px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.sale, .eco-2 {
+    left: 0;
+}
+
+.eco {
+    left: 32px;
+}
+
+.sale {
+    background-color: #d73b48;
+}
+
+[class^="eco"] {
+    background-color: #3e8158;    
+    width: 70px;
+}
+
+
+
+.item-left {
+    padding-right: 12.5px;
+}
+
+.item-middle {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+.item-right {
+    padding-left: 12.5px;
+}
+
+.img-1 {
+    background-image: url(../img/1.webp);
+}
+
+.img-1:hover {
+    background-image: url(../img/1-hover.webp);
+}
+
+.img-2 {
+    background-image: url(../img/2.webp);
+}
+
+.img-2:hover {
+    background-image: url(../img/2-hover.webp);
+}
+
+.img-3 {
+    background-image: url(../img/3.webp);
+    margin-bottom: 0;
+}
+
+.img-3:hover {
+    background-image: url(../img/3-hover.webp);
+    margin-bottom: 0;
+}
+
+.img-4 {
+    background-image: url(../img/4.webp);
+}
+
+.img-4:hover {
+    background-image: url(../img/4-hover.webp);
+}
+
+.img-5 {
+    background-image: url(../img/5.webp);
+}
+
+.img-5:hover {
+    background-image: url(../img/5-hover.webp);
+}
+
+.img-6 {
+    background-image: url(../img/6.webp);
+}
+
+.img-6:hover {
+    background-image: url(../img/6-hover.webp);
+}
